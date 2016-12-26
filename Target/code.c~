@@ -141,6 +141,12 @@ int sine_wave(float theta)		/*****************************************
 	return((int)(s*1024));
 }
 
+/*	FUNCTIONS TO WRITE
+
+	sine_wave()	-> recives argument as angle in radians and returns an amplitude
+	dac_init()	-> initializes DAC.
+	dac_do()		-> do a DAC conversion. takes argument digital data.
+*/
 
 int main(){
 	// char a[20];
